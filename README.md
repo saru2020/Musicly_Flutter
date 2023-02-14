@@ -3,28 +3,28 @@ Flutter app/version of Noisli's core functionality!
 
 <br/>
 
-![Musicly Flutter App on macOS](https://raw.githubusercontent.com/saru2020/Musicly_Flutter/master/app_screenshots/Musicly_FlutterApp_on_macOS.png)
+![Musicly Flutter App on macOS](https://raw.githubusercontent.com/saru2020/Musicly_Flutter/main/musicly/app_screenshots/Musicly_FlutterApp_on_macOS.png)
 <br/>
 <i>(Musicly Flutter App on macOS)</i>
 
 <br/>
 <br/>
 
-![Musicly Flutter App on iOS](https://raw.githubusercontent.com/saru2020/Musicly_Flutter/master/app_screenshots/Musicly_FlutterApp_on_iOS_Simulator.png)
+![Musicly Flutter App on iOS](https://raw.githubusercontent.com/saru2020/Musicly_Flutter/main/musicly/app_screenshots/Musicly_FlutterApp_on_iOS_Simulator.png)
 <br/>
 <i>(Musicly Flutter App on iOS)</i>
 
 <br/>
 <br/>
 
-![Musicly Flutter App on Chrome](https://raw.githubusercontent.com/saru2020/Musicly_Flutter/master/app_screenshots/Musicly_FlutterApp_on_Chrome.png)
+![Musicly Flutter App on Chrome](https://raw.githubusercontent.com/saru2020/Musicly_Flutter/main/musicly/app_screenshots/Musicly_FlutterApp_on_Chrome.png)
 <br/>
 <i>(Musicly Flutter App on Chrome)</i>
 
 <br/>
 <br/>
 
-<i>(long back, I wrote this same app in [React Native](https://github.com/saru2020/Musicly/)</i>
+<i>added note: long time ago, I wrote this same app in [React Native](https://github.com/saru2020/Musicly/)</i>
 
 <br/>
 <br/>
