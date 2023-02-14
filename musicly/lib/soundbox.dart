@@ -4,6 +4,7 @@ import 'package:audioplayers/audioplayers.dart';
 
 class SoundBox extends StatefulWidget {
   late Data data;
+  double currentSliderValue = 60;
   bool isPlaying = false;
   final player = AudioPlayer();
 
@@ -35,9 +36,13 @@ class _SoundBoxState extends State<SoundBox> {
     refresh();
   }
 
+  Future<void> updateVolume() async {
+    return await widget.player.setVolume(widget.currentSliderValue / 100);
+  }
+
   Color myColor() {
     if (widget.isPlaying) {
-      return Colors.green;
+      return Colors.red;
     } else {
       return Colors.white;
     }
@@ -50,19 +55,44 @@ class _SoundBoxState extends State<SoundBox> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: GestureDetector(
-          onTap: () {
-            print("container clicked");
-            play();
-            // refresh();
-            // setState(() {}); //this piece of code refreshes the current component
-          },
-          child: Container(
-              width: 120,
-              height: 120,
-              decoration: BoxDecoration(
-                  border: Border.all(color: Colors.red), color: myColor()),
-              child: widget.data.icon())),
+      child: Column(
+        children: [
+          GestureDetector(
+              onTap: () {
+                print("container clicked");
+                play();
+              },
+              child: Container(
+                  width: 120,
+                  height: 120,
+                  decoration: BoxDecoration(
+                      border: Border.all(color: Colors.red), color: myColor()),
+                  child: widget.data.icon())),
+          Container(
+            width: 170,
+            child: Slider(
+              value: widget.currentSliderValue,
+              max: 100,
+              divisions: 100,
+              label: widget.currentSliderValue.round().toString(),
+              onChanged: (double value) {
+                setState(() {
+                  widget.currentSliderValue = value;
+                  // widget.onVolumeSliderChange();
+                  // updateVolume();
+                  updateVolume()
+                      .then((success) {})
+                      .catchError((e) {})
+                      .whenComplete(() {
+                    print("slider value changed");
+                    print(widget.currentSliderValue.round());
+                  });
+                });
+              },
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
