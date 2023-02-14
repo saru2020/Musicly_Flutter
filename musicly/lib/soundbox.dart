@@ -58,8 +58,8 @@ class _SoundBoxState extends State<SoundBox> {
             // setState(() {}); //this piece of code refreshes the current component
           },
           child: Container(
-              width: 200,
-              height: 200,
+              width: 120,
+              height: 120,
               decoration: BoxDecoration(
                   border: Border.all(color: Colors.red), color: myColor()),
               child: widget.data.icon())),
