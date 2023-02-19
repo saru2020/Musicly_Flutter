@@ -33,6 +33,13 @@ Flutter app/version of Noisli's core functionality!
 <br/>
 <br/>
 
+<i>To resolve dependencies:</i>
+
+```
+flutter pub get
+```
+
+<br/>
 <i>To run the app:</i>
 
 ```
