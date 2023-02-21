@@ -17,6 +17,13 @@ Flutter app/version of Noisli's core functionality!
 <br/>
 <br/>
 
+![Musicly Flutter App on Android](https://raw.githubusercontent.com/saru2020/Musicly_Flutter/main/musicly/app_screenshots/Musicly_FlutterApp_on_Android.JPG)
+<br/>
+<i>(Musicly Flutter App on Android)</i>
+
+<br/>
+<br/>
+
 ![Musicly Flutter App on Chrome](https://raw.githubusercontent.com/saru2020/Musicly_Flutter/main/musicly/app_screenshots/Musicly_FlutterApp_on_Chrome.png)
 <br/>
 <i>(Musicly Flutter App on Chrome)</i>

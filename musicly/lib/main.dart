@@ -63,7 +63,7 @@ class _MyAppState extends State<MyApp> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   fire,
-                  const Padding(padding: EdgeInsets.all(20)),
+                  const Padding(padding: EdgeInsets.all(10)),
                   rain
                 ]),
             const Padding(padding: EdgeInsets.all(20)),
@@ -72,7 +72,7 @@ class _MyAppState extends State<MyApp> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   thunder,
-                  const Padding(padding: EdgeInsets.all(20)),
+                  const Padding(padding: EdgeInsets.all(10)),
                   wind
                 ])
           ],
