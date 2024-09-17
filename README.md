@@ -1,6 +1,13 @@
 # Musicly_Flutter
 Flutter app/version of Noisli's core functionality!
 
+note: NO affiliation to [Noisli](https://www.noisli.com/)
+
+<br/>
+
+[Abstractly on Flutter](https://saru2020.blogspot.com/2023/02/abstractly-on-flutter.html), a short read!
+
+<br/>
 <br/>
 
 ![Musicly Flutter App on macOS](https://raw.githubusercontent.com/saru2020/Musicly_Flutter/main/musicly/app_screenshots/Musicly_FlutterApp_on_macOS.png)
